@@ -6,5 +6,13 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Brush brush = Brushes.Fuchsia;
+            Graphics gr = this.CreateGraphics();
+            gr.FillPie(brush, 40, 40, 80, 80, 80, 80);
+            gr.Dispose();
+        }
     }
 }
