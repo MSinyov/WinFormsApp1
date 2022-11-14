@@ -12,6 +12,10 @@ namespace WinFormsApp1
             Brush brush = Brushes.Fuchsia;
             Graphics gr = this.CreateGraphics();
             gr.FillPie(brush, 40, 40, 80, 80, 80, 80);
+            //Михайлов
+            brush = Brushes.Fuchsia;
+            gr.FillPie(brush, 20, 20, 200, 200, 200, 200);
+            //Михайлов
             gr.Dispose();
         }
     }
